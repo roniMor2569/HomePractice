@@ -1,11 +1,8 @@
 const productContainer = document.getElementById("products-container");
 
 const productList = ["Black Tea", "Green Tea"];
-
-
-
-
-
+productList.push("milk");
+productList.splice(0,1);
 
 const blackTea = document.createElement("div");
 const greenTea = document.createElement("div");
