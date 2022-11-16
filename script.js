@@ -17,7 +17,7 @@ productsArray.push({
 
 for(let i=0; i<productsArray.length; i++) {
     const productDiv = document.createElement("div"); 
-    productDiv.classList("product");
+    productDiv.classList.add("product");
 
     const productNameDiv = document.createElement("div");
     productNameDiv.innerHTML = productsArray[i].name;
